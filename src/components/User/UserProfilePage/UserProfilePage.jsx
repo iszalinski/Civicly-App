@@ -148,6 +148,7 @@ export default function UserProfilePage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                paddingBottom: 11
                 }}>
                 <Button  sx={{ width: 130, padding: 1, margin: 1 }} color="secondary" href="/" variant="contained" onClick={() => dispatch({ type: 'LOGOUT' })}>
                     Log Out
